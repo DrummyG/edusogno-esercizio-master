@@ -1,0 +1,175 @@
+/* generali */
+
+*{
+    font-family: 'DM Sans';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D9E5F3;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.centrer{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* form specifici */
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #134077;
+}
+
+.middler{
+    width: 662px;
+    background: #FFFFFF;
+    border: 1px solid #134077;
+    border-radius: 19px;
+}
+
+.error{
+    text-align: center;
+}
+
+label, input, button{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+}
+
+input{
+    border: 0px;
+    border-bottom: 1px solid #2D224C;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 99.5%;
+}
+
+input:focus{
+    border: 0px;
+    border-bottom: 1px solid #2D224C;
+}
+
+::-ms-reveal {
+    filter: invert(100%);
+  }
+
+label{
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+::placeholder, :-ms-input-placeholder, ::-ms-input-placeholder {
+    color: #CCCCCC;
+  }
+
+button{
+    background: #0057FF;
+    border-radius: 11px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50%;
+    padding: 20px;
+    border: 0px;
+    margin-top: 50px;
+}
+
+.redirect{
+    color: #2D224C;
+    text-align: center;
+}
+
+/* user specifici */
+
+.meetings{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 30px;
+    position: relative;
+    padding: 20px;
+}
+
+.meet{
+    width: 30%;
+    padding: 20px;
+}
+
+.date{
+    font-weight: 400;
+    font-size: 20px;
+    color: #CCCCCC;
+}
+
+h2{
+    font-size: 36px;
+}
+
+/* header */
+
+header{
+    height: 120px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0px 4px 18px -6px #0057FF;
+    background-color: white;
+    border-radius: 13px;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+/* sfondo intercambiabile con una singola immagine */
+
+.tredici{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.dodici{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    right: 10%;
+}
+
+.quattro{
+    position: absolute;
+    bottom: -100px;
+    width: 100%;
+    z-index: -2;
+}
+
+.cinque{
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    z-index: -3;
+}
+
+.uno{
+    position: absolute;
+    bottom: -40px;
+    width: 100%;
+}
+
+.razzo{
+    position: absolute;
+    bottom: 30px;
+    right: 10%;
+}
+
